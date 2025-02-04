@@ -1,6 +1,6 @@
 🎵 Acoustic Droplet Sorting using Reinforcement Learning & OpenCV
 
-📌 Overview
+📌 Overview:
 
 This project implements droplet sorting under the influence of acoustic force using:
 
@@ -12,7 +12,7 @@ Acoustic Force Application to control droplet movement
 
 🔬 The system detects droplet size, applies an acoustic force, and learns to optimize sorting using RL.
 
-🚀 Features
+🚀 Features:
 
 ✅ Droplet detection using OpenCV
 ✅ Acoustic sorting with tunable frequency & amplitude
@@ -20,13 +20,13 @@ Acoustic Force Application to control droplet movement
 ✅ Custom Gym environment for RL training
 ✅ Compatible with real-time droplet sorting systems
 
-🛠 Installation
+🛠 Installation:
 
 Ensure you have the required libraries installed:
 
 pip install opencv-python numpy gym stable-baselines3 matplotlib
 
-📂 Project Structure
+📂 Project Structure:
 
 📁 acoustic-droplet-sorting
 │── 📜 README.md       # Project Documentation
@@ -38,7 +38,7 @@ pip install opencv-python numpy gym stable-baselines3 matplotlib
 │── 📁 models          # Saved RL models
 │── 📁 images          # Sample droplet images
 
-🎯 How It Works
+🎯 How It Works:
 
 Droplet Detection 📷
 
@@ -60,7 +60,7 @@ RL agent learns the optimal frequency & amplitude to sort droplets.
 
 Acoustic force is applied based on piezoelectric transducers.
 
-📜 Usage
+📜 Usage:
 
 1️⃣ Run Droplet Detection
 
@@ -74,10 +74,10 @@ python train.py
 
 python test.py --image path/to/new_image.jpg
 
-📊 Results
+📊 Results:
 
 📌 The trained RL model successfully sorts droplets into Small, Medium, and Large categories by dynamically adjusting acoustic parameters.
 
-🤝 Contributing
+🤝 Contributing:
 
 🔹 Fork the repository 📌🔹 Create a new branch 🔄🔹 Commit your changes 🎯🔹 Open a pull request 🚀
