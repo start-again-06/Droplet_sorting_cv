@@ -14,10 +14,15 @@ Acoustic Force Application to control droplet movement
 
 🚀 Features:
 
+
 ✅ Droplet detection using OpenCV
+
 ✅ Acoustic sorting with tunable frequency & amplitude
+
 ✅ Reinforcement Learning for optimized sorting
+
 ✅ Custom Gym environment for RL training
+
 ✅ Compatible with real-time droplet sorting systems
 
 🛠 Installation:
@@ -29,13 +34,21 @@ pip install opencv-python numpy gym stable-baselines3 matplotlib
 📂 Project Structure:
 
 📁 acoustic-droplet-sorting
+
 │── 📜 README.md       # Project Documentation
+
 │── 📜 main.py         # Main script for sorting
+
 │── 📜 env.py          # Gym environment
+
 │── 📜 detect.py       # OpenCV-based droplet detection
+
 │── 📜 train.py        # RL training script
+
 │── 📜 test.py         # Testing trained model
+
 │── 📁 models          # Saved RL models
+
 │── 📁 images          # Sample droplet images
 
 🎯 How It Works:
